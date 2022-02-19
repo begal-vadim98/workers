@@ -1,0 +1,47 @@
+body {
+  background-color: #ccc;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 40px;
+  background-color: #fff;
+}
+.form-label {
+  margin-bottom: 15px;
+  width: 100%;
+  
+}
+.form-label__input {
+  width: 100%;
+  border: 1px solid transparent;
+  border-bottom: 2px solid blue;
+  outline: none;
+}
+.form-label__input.children {
+  width: 10px;
+  height: 10px;
+}
+
+
+.box-table {
+  border: 1px solid black;
+  background-color: #fff;
+}
+.box-table span {
+  padding: 5px;
+  /* border: 1px solid black; */
+}
+
+.box-table div{
+  padding: 10px;
+}
+.box-table div > div {
+  width: 15%;
+}
